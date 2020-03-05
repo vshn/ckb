@@ -1,0 +1,2 @@
+.Control Panel Help
+* xref:index.adoc[Welcome]

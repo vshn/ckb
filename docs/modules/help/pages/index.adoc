@@ -1,0 +1,3 @@
+= Control Panel Help
+
+This website contains the complete reference of all functions and possibilities offered in the https://control.vshn.net/[Control Panel].

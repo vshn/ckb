@@ -23,7 +23,6 @@ endif
 .PHONY: all
 all: html open
 
-# This will clean the Antora Artifacts, not the npm artifacts
 .PHONY: clean
 clean:
 	rm -rf $(out_dir) $(web_dir)

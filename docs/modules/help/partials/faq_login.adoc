@@ -1,0 +1,7 @@
+=== How can I recover a forgotten username or password?
+
+If you have forgotten your username or password, click on the "I can't log in" link and follow the instructions on the screen.
+
+.Asking for help when not able to login
+image::login-forgotten.gif[]
+

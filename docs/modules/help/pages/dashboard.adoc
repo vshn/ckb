@@ -1,4 +1,4 @@
-= The Dashboard
+= Dashboard
 
 WARNING: Depending on your access rights, your actual screen might differ from what is shown in the screenshots in this help system.
 

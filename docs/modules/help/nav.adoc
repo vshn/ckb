@@ -1,7 +1,7 @@
 .Control Panel Help
 * xref:index.adoc[Welcome]
 * xref:login.adoc[Logging in]
-* xref:dashboard.adoc[The Dashboard]
+* xref:dashboard.adoc[Dashboard]
 * xref:faq.adoc[FAQ]
 
 * Tickets

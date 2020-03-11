@@ -1,4 +1,4 @@
-= Ticket Creation and Edition
+= Ticket Creation
 
 == Creating a new ticket
 
@@ -6,10 +6,36 @@ One of the most common use cases of the Control Panel consists in the creation o
 
 WARNING: Please do not include secrets such as password or private keys in the text of the ticket; please refer to the "Frequently Asked Questions" section below for information about how to securely transmit such information.
 
-The animation below shows how to create a simple ticket, clicking on the "Create new ticket" link in the xref:dashboard.adoc[Dashboard].
+The animation below shows how to create a simple ticket, after clicking on the "Create new ticket" link in the xref:dashboard.adoc[Dashboard].
 
 .Creating a new ticket
 image::ticket-create.gif[]
+
+The steps for the creation of a new ticket are the following:
+
+IMPORTANT: Please enter all information in the ticket in English, as some VSHNeers don't speak German.
+
+. Click on a link or button to access the corresponding form.
+. Enter a **summary**, describing the issue in a few words.
+. Select a **due date**, if applicable.
+. Select a **priority** from the dropdown:
+** **Emergency** - Critical impact
+*** Production service is down and needs immediate action by VSHN (Outside office hours: Depends on the SLA). Please create the ticket with a detailed description (as much information as possible) and also give us a call.
+** **Blocker** - Significant impact
+*** Blocks further work from progressing and has the highest priority for action. Please create the ticket with a detailed description (as much information as possible) and describe how it blocks work from progressing.
+** **Major** - Limited impact
+*** Important issue which doesn't block further work and doesn't require immediate action.
+** **Normal** - Minimal impact
+*** Does not require immediate action and can be handled on a first-come first-served basis.
+
+. Indicate the servers affected by this issue in the **Affects** field, if applicable.
+. Select the names of members of your organization in the **Participants** field, so that they are notified about updates to this ticket.
+. Add as much information as possible about the issue at hand in the **Description** field. 
++
+TIP: If you are familiar with https://jira.atlassian.com/secure/WikiRendererHelpAction.jspa?section=all[Jira markup], you can use it here.
+
+. If you would like to append some code or some log output, click on the "Add code or log output" link and fill the textbox appearing below.
+. Hit the **Create** button when you are ready.
 
 == Frequently Asked Questions
 

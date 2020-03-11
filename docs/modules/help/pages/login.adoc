@@ -14,11 +14,8 @@ If the username or password is incorrect, you will see an error message appear b
 .Wrong credentials
 image::login-error.png[]
 
-== Missing login information
+== Frequently Asked Questions
 
-If you have forgotten your username or password, click on the "I can't log in" link.
-
-.Asking for help when not able to login
-image::login-forgotten.gif[]
+include::partial$faq_login.adoc[]
 
 include::partial$footer.adoc[]

@@ -4,6 +4,10 @@
 This page simply includes all the FAQs shown in other pages.
 ////
 
+== Login
+
+include::partial$faq_login.adoc[]
+
 == Dashboard
 
 include::partial$faq_dashboard.adoc[]

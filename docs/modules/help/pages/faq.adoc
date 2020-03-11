@@ -1,0 +1,15 @@
+= Frequently Asked Questions
+
+////
+This page simply includes all the FAQs shown in other pages.
+////
+
+== Dashboard
+
+include::partial$faq_dashboard.adoc[]
+
+== Ticket Creation and Edition
+
+include::partial$faq_tickets_edit.adoc[]
+
+include::partial$footer.adoc[]

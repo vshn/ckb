@@ -1,0 +1,3 @@
+= Reporting Services
+
+include::partial$footer.adoc[]

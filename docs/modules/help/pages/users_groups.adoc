@@ -1,0 +1,3 @@
+= User Groups
+
+include::partial$footer.adoc[]

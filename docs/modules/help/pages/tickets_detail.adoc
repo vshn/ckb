@@ -1,0 +1,3 @@
+= Ticket Detail
+
+include::partial$footer.adoc[]

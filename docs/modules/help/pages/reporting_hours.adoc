@@ -1,0 +1,3 @@
+= Reporting Hours
+
+include::partial$footer.adoc[]

@@ -1,2 +1,21 @@
 .Control Panel Help
 * xref:index.adoc[Welcome]
+* xref:login.adoc[Logging in]
+* xref:dashboard.adoc[The Dashboard]
+* xref:faq.adoc[FAQ]
+
+* Tickets
+** xref:tickets_edit.adoc[Creating a ticket]
+** xref:tickets_list.adoc[Viewing the ticket list]
+** xref:tickets_detail.adoc[Seeing ticket details]
+** xref:tickets_org.adoc[Selecting organizations]
+
+* Reporting
+** xref:reporting_hours.adoc[Reporting hours]
+** xref:reporting_servers.adoc[Reporting servers]
+** xref:reporting_services.adoc[Reporting services]
+
+* Users
+** xref:users_list.adoc[Listing users]
+** xref:users_groups.adoc[Viewing user groups]
+** xref:users_edit.adoc[Adding or modifying users]

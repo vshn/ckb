@@ -1,0 +1,3 @@
+= Reporting Servers
+
+include::partial$footer.adoc[]

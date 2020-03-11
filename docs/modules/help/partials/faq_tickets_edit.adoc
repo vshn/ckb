@@ -1,0 +1,6 @@
+=== What happens when I create a new ticket?
+
+VSHN staff members are notified immediately of the creation of new tickets. Higher priority tickets also trigger internal alert systems for a faster response.
+
+=== How can I add secrets (passwords, keys, etc.) to tickets?
+

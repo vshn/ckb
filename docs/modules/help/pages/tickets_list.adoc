@@ -1,0 +1,3 @@
+= Ticket List
+
+include::partial$footer.adoc[]

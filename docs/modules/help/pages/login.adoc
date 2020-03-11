@@ -1,0 +1,24 @@
+= Logging in to the Control Panel
+
+== Logging in
+
+To log in to the Control Panel, enter your username and password.
+
+.Logging in to the Control Panel
+image::login.gif[]
+
+== Incorrect credentials
+
+If the username or password is incorrect, you will see an error message appear below the password field.
+
+.Wrong credentials
+image::login-error.png[]
+
+== Missing login information
+
+If you have forgotten your username or password, click on the "I can't log in" link.
+
+.Asking for help when not able to login
+image::login-forgotten.gif[]
+
+include::partial$footer.adoc[]

@@ -1,3 +1,14 @@
 = Control Panel Help
 
-This website contains the complete reference of all functions and possibilities offered in the https://control.vshn.net/[Control Panel].
+image::ROOT:vshn_logo.png[]
+
+This website contains the complete reference of all functions and possibilities offered in the https://control.vshn.net/[Control Panel]. Use the search function on the top right corner of this website to find answers to your questions.
+
+Quick link to common topics:
+
+* xref:dashboard.adoc[The Dashboard]
+* xref:tickets_edit.adoc[Creating a ticket]
+* xref:reporting_hours.adoc[Reporting hours]
+* xref:users_list.adoc[Listing users]
+
+include::partial$footer.adoc[]

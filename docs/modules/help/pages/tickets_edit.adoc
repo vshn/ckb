@@ -1,0 +1,18 @@
+= Ticket Creation and Edition
+
+== Creating a new ticket
+
+One of the most common use cases of the Control Panel consists in the creation of new tickets. You can access the ticket creation form from various parts of the user interface.
+
+WARNING: Please do not include secrets such as password or private keys in the text of the ticket; please refer to the "Frequently Asked Questions" section below for information about how to securely transmit such information.
+
+The animation below shows how to create a simple ticket, clicking on the "Create new ticket" link in the xref:dashboard.adoc[Dashboard].
+
+.Creating a new ticket
+image::ticket-create.gif[]
+
+== Frequently Asked Questions
+
+include::partial$faq_tickets_edit.adoc[]
+
+include::partial$footer.adoc[]

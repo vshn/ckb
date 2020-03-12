@@ -34,4 +34,4 @@ include::partial$footer.adoc[]
 [[user-creation]]
 == Adding or modifying Users
 
-include::faq_users_edit.adoc[]
+include::partial$faq_users_edit.adoc[]

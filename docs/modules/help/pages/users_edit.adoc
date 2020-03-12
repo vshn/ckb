@@ -20,6 +20,6 @@ CAUTION: Users with the "Customer Admin" role can add or remove the "Customer Ad
 [[faq]]
 == Frequently Asked Questions
 
-include::faq_users_edit.adoc[]
+include::partial$faq_users_edit.adoc[]
 
 include::partial$footer.adoc[]

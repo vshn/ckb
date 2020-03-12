@@ -16,7 +16,6 @@
 
 * Users
 ** xref:users_list.adoc[Viewing the list of users]
-** xref:users_groups.adoc[Viewing user groups]
 ** xref:users_edit.adoc[Adding or modifying users]
 
 * Servers

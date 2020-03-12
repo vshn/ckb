@@ -15,7 +15,7 @@
 ** xref:reporting_services.adoc[Accessing the Services Report]
 
 * Users
-** xref:users_list.adoc[Listing users]
+** xref:users_list.adoc[Viewing the list of users]
 ** xref:users_groups.adoc[Viewing user groups]
 ** xref:users_edit.adoc[Adding or modifying users]
 

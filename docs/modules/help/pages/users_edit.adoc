@@ -1,3 +1,20 @@
-= User Creation or Edition
+= Adding or modifying users
+
+WARNING: Depending on your access rights, your actual screen might differ from what is shown in the screenshots in this help system.
+
+[[overview]]
+== Overview
+
+Users with the "Customer Admin" role can create and edit users. Clicking on the btn:[Create User] button prompts the user creation form.
+
+When clicking on an individual user entry, the same form appears pre-filled with the data of that user.
+
+.User creation/edition form
+image::users-edit.png[]
+
+<1> Use this section to enter basic data for the user.
+<2> Select a role for the user in this section.
+
+CAUTION: Users with the "Customer Admin" role can add or remove the "Customer Admin" role to other users, and to themselves. Doing so might disable the capability of the current user to undo this change, or inversely, provide this privilege to any user.
 
 include::partial$footer.adoc[]

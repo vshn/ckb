@@ -1,3 +1,18 @@
-= Listing Users
+= Viewing the list of users
+
+WARNING: Depending on your access rights, your actual screen might differ from what is shown in the screenshots in this help system.
+
+[[overview]]
+== Overview
+
+Clicking on the menu:Customer Users[] entry in the navigation menu shows the list of users of the current organization, ordered by alphabetic order.
+
+.List of users
+image::users-list.png[]
+
+<1> Click the btn:[Create User] button to xref:users_edit.adoc[create a new user.]
+<2> Select a user from the list to xref:users_edit.adoc[edit the user details].
+<3> The list of users can be filtered to quickly find an existing user.
+<4> The list of users can be exported in the Comma-Separated Values (CSV) or Excel formats, or it can be printed.
 
 include::partial$footer.adoc[]

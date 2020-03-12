@@ -1,3 +1,12 @@
 = Reporting Services
 
+WARNING: Depending on your access rights, your actual screen might differ from what is shown in the screenshots in this help system.
+
+[[overview]]
+== Overview
+
+This screen gives you an overview of all the services currently managed on your behalf.
+
+image::reporting-services.png[]
+
 include::partial$footer.adoc[]

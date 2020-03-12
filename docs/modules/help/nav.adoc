@@ -1,14 +1,13 @@
 .Control Panel Help
 * xref:index.adoc[Welcome]
 * xref:login.adoc[Logging in]
-* xref:dashboard.adoc[Dashboard]
+* xref:dashboard.adoc[Using the Dashboard]
 * xref:faq.adoc[FAQ]
 
 * Tickets
 ** xref:tickets_edit.adoc[Creating a ticket]
 ** xref:tickets_list.adoc[Viewing the ticket list]
-** xref:tickets_detail.adoc[Seeing ticket details]
-** xref:tickets_org.adoc[Selecting organizations]
+** xref:tickets_detail.adoc[Viewing a ticket]
 
 * Reporting
 ** xref:reporting_hours.adoc[Reporting hours]

@@ -1,0 +1,3 @@
+=== Why can't I close some tickets?
+
+Some tickets might be in such a state that can't be closed. Only new tickets, tickets in "backlog" and in "customer review" status can be closed. If you need to close such a ticket, please write a comment requesting to change the state.

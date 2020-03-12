@@ -1,7 +1,7 @@
-= Ticket Creation
+= Creating a ticket
 
-[[creating]]
-== Creating a new ticket
+[[overview]]
+== Overview
 
 One of the most common use cases of the Control Panel consists in the creation of new tickets. You can access the ticket creation form from various parts of the user interface.
 

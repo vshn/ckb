@@ -5,23 +5,28 @@ This page simply includes all the FAQs shown in other pages.
 ////
 
 [[login]]
-== Login
+== Logging in
 
 include::partial$faq_login.adoc[]
 
 [[dashboard]]
-== Dashboard
+== Using the Dashboard
 
 include::partial$faq_dashboard.adoc[]
 
 [[ticket-creation]]
-== Ticket Creation
+== Creating a ticket
 
 include::partial$faq_ticket_edit.adoc[]
 
 [[ticket-list]]
-== Ticket Lists
+== Viewing the ticket list
 
 include::partial$faq_ticket_list.adoc[]
+
+[[ticket-detail]]
+== Seeing ticket details
+
+include::partial$faq_ticket_detail.adoc[]
 
 include::partial$footer.adoc[]

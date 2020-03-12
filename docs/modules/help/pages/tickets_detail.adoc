@@ -1,3 +1,29 @@
-= Ticket Detail
+= Seeing ticket details
+
+[[overview]]
+== Overview
+
+When clicking on a ticket in a ticket list, the ticket detail screen appears. The screen shows the following major elements:
+
+. Ticket summary at the top, including buttons for editing and closing the ticket.
+. Ticket detail information at the right hand side.
+. Associated secrets.
+. Attached files.
+. Finally, the comments exchanged between VSHNeers and the customer.
+
+The screenshot below shows the major elements of the upper side of the screen.
+
+.Ticket Detail screen
+image::ticket-detail.png[]
+
+<1> The btn:[Edit] button gives you the possibility to change some of the information associated to the ticket.
+<2> The btn:[Close] button, when enabled, allows you to close and discard this ticket.
+<3> The right-hand side of the screen shows a summary of the current status of the ticket, including the VSHNeer in charge.
+<4> You can add and remove people from your organization, to involve them in the process associated to this ticket.
+
+[[faq]]
+== Frequently Asked Questions
+
+include::partial$faq_ticket_detail.adoc[]
 
 include::partial$footer.adoc[]

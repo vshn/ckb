@@ -1,4 +1,4 @@
-= Logging in to the Control Panel
+= Logging in
 
 [[login]]
 == Logging in

@@ -1,4 +1,4 @@
-= Ticket List
+= Viewing the ticket list
 
 [[overview]]
 == Overview

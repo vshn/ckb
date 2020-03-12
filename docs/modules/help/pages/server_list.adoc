@@ -1,0 +1,11 @@
+= Viewing the list of servers
+
+[[overview]]
+== Overview
+
+The list of managed servers can be accessed using the menu:Server Management[] entry in the navigation bar.
+
+.List of managed servers
+image::server-list.png[]
+
+include::partial$footer.adoc[]

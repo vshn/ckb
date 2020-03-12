@@ -11,8 +11,8 @@
 
 * Reporting
 ** xref:reporting_hours.adoc[Accessing the Worked Hours Report]
-** xref:reporting_servers.adoc[Reporting servers]
-** xref:reporting_services.adoc[Reporting services]
+** xref:reporting_servers.adoc[Accessing the Servers Report]
+** xref:reporting_services.adoc[Accessing the Services Report]
 
 * Users
 ** xref:users_list.adoc[Listing users]

@@ -8,6 +8,7 @@ Quick link to common topics:
 
 * xref:dashboard.adoc[The Dashboard]
 * xref:tickets_edit.adoc[Creating a ticket]
+** xref:tickets_edit.adoc#secrets[Adding secrets to tickets]
 * xref:reporting_hours.adoc[Reporting hours]
 * xref:users_list.adoc[Listing users]
 

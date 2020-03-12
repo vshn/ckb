@@ -2,6 +2,7 @@
 
 WARNING: Depending on your access rights, your actual screen might differ from what is shown in the screenshots in this help system.
 
+[[main-screen]]
 == Main screen
 
 The Dashboard is the main screen of the https://control.vshn.net[Control Panel]. It offers a quick navigation mechanism across all functional areas.
@@ -13,6 +14,7 @@ image::dashboard.png[]
 <2> Click here to quickly xref:tickets_edit.adoc[create a new ticket].
 <3> The list of open tickets you are involved in.
 
+[[mobile-devices]]
 == Mobile devices
 
 The Dashboard is also easily accessible with the most common mobile web browsers on smartphone platfoms such as iOS or Android.
@@ -20,6 +22,7 @@ The Dashboard is also easily accessible with the most common mobile web browsers
 .The Control Panel on a mobile device
 image::dashboard-mobile.png[]
 
+[[faq]]
 == Frequently Asked Questions
 
 include::partial$faq_dashboard.adoc[]

@@ -1,5 +1,6 @@
 = Logging in to the Control Panel
 
+[[login]]
 == Logging in
 
 To log in to the Control Panel, enter your username and password.
@@ -7,6 +8,7 @@ To log in to the Control Panel, enter your username and password.
 .Logging in to the Control Panel
 image::login.gif[]
 
+[[error]]
 == Incorrect credentials
 
 If the username or password is incorrect, you will see an error message appear below the password field.
@@ -14,6 +16,7 @@ If the username or password is incorrect, you will see an error message appear b
 .Wrong credentials
 image::login-error.png[]
 
+[[faq]]
 == Frequently Asked Questions
 
 include::partial$faq_login.adoc[]

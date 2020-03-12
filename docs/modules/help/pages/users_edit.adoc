@@ -17,4 +17,9 @@ image::users-edit.png[]
 
 CAUTION: Users with the "Customer Admin" role can add or remove the "Customer Admin" role to other users, and to themselves. Doing so might disable the capability of the current user to undo this change, or inversely, provide this privilege to any user.
 
+[[faq]]
+== Frequently Asked Questions
+
+include::faq_users_edit.adoc[]
+
 include::partial$footer.adoc[]

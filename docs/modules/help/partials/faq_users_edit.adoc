@@ -1,0 +1,6 @@
+[[icinga-gitlab]]
+=== I created a new user account. Why isn't this new user account able to access Icinga or GitLab?
+
+The current user creation procedure is not able to create user accounts to reach Icinga or GitLab.
+
+If your new user account needs to be able to access any or both of these systemss, please xref:tickets_edit.adoc[open a ticket].

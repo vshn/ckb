@@ -30,3 +30,8 @@ include::partial$faq_ticket_list.adoc[]
 include::partial$faq_ticket_detail.adoc[]
 
 include::partial$footer.adoc[]
+
+[[user-creation]]
+== Adding or modifying Users
+
+include::faq_users_edit.adoc[]

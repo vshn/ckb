@@ -41,6 +41,6 @@ TIP: If you are familiar with https://jira.atlassian.com/secure/WikiRendererHelp
 [[faq]]
 == Frequently Asked Questions
 
-include::partial$faq_tickets_edit.adoc[]
+include::partial$faq_ticket_edit.adoc[]
 
 include::partial$footer.adoc[]

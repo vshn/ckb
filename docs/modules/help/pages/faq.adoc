@@ -14,9 +14,14 @@ include::partial$faq_login.adoc[]
 
 include::partial$faq_dashboard.adoc[]
 
-[[tickets]]
-== Ticket Creation and Edition
+[[ticket-creation]]
+== Ticket Creation
 
-include::partial$faq_tickets_edit.adoc[]
+include::partial$faq_ticket_edit.adoc[]
+
+[[ticket-list]]
+== Ticket Lists
+
+include::partial$faq_ticket_list.adoc[]
 
 include::partial$footer.adoc[]

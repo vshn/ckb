@@ -1,3 +1,16 @@
 = Ticket List
 
+[[overview]]
+== Overview
+
+The ticket list is the first screen that appears when selecting the menu:Tickets[] entry in the navigation bar.
+
+.Ticket list main screen
+image::ticket-list.png[]
+
+[[faq]]
+== Frequently Asked Questions
+
+include::partial$faq_ticket_list.adoc[]
+
 include::partial$footer.adoc[]

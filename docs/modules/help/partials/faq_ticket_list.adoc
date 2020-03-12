@@ -1,0 +1,30 @@
+[[types]]
+=== Why can't I see some of my tickets?
+
+The ticket list groups tickets depending on their nature:
+
+1. Tickets that belong to a project; and
+2. Tickets that do not (yet) belong to a project.
+
+The image below shows these two groups.
+
+.Different ticket types
+image::ticket-types.png[]
+
+<1> Tickets that are part of a project will appear grouped together. Click on the btn:[>] button to expand the project and access individual tickets.
+<2> Tickets that are **not** part of a project appear in a separate list.
+
+[[filtering]]
+=== I have lots of tickets. How can I find the one I'm looking for?
+
+When navigating long lists, it can be useful to search for tickets with certain characteristics. The menu:Filter[] section of the screen allows you to conveniently reduce the scope of your search.
+
+.Ticket filter
+image::ticket-filter.png[]
+
+<1> This drop-down shows options only if you are allowed to search for tickets from different organizations.
+<2> Enter here some text describing the ticket, either its title or summary.
+<3> Hit the btn:Search[] button to filter tickets. The results will appear below.
+<4> You can expand your search to projects without tasks.
+<5> You can also expand your search to include closed tickets; by default, only open tickets are shown.
+<6> If you need to create a new ticket, just click on the btn:[Create Ticket] button.

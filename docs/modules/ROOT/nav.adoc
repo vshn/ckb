@@ -1,5 +1,7 @@
 * xref:index.adoc[Home]
 
+* xref:changelog.adoc[Changelog]
+
 * xref:contact.adoc[Contact VSHN]
 ** xref:create_ticket.adoc[Create a Ticket]
 

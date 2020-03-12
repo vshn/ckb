@@ -1,0 +1,14 @@
+= CHANGELOG
+
+// Add information about new releases at the top of this file,
+// so that the most recent version always appears on top.
+
+[discrete]
+== 2020–XX–XX: Version 1.1
+
+* Added Control Panel help system.
+
+[discrete]
+== 2019–10–01: Version 1.0
+
+* First release.

@@ -1,4 +1,4 @@
-= Control Panel Help
+= How to use the Control Panel
 
 image::ROOT:vshn_logo.png[]
 

@@ -1,9 +1,6 @@
 = Continuous Delivery
 
-In order to ensure that code released to production is of the highest possible quality, 
-and to maximize development speed and ensure least possible impact on operations for releasing 
-updates, we recommend setting up three separate deployment environments to play different 
-roles in the Continuous Integration/Continuous Delivery (CI/CD) process.
+In order to ensure that code released to production is of the highest possible quality, and to maximize development speed and ensure least possible impact on operations for releasing updates, we recommend setting up three separate deployment environments to play different roles in the Continuous Integration/Continuous Delivery (CI/CD) process.
 
 == Target Enviroments
 
@@ -11,32 +8,19 @@ A typical CI/CD framework would deploy images to the following three environment
 
 === Development
 
-The development environment is used to verify that features developed locally work in a
-cleanly set up environment, which may include changes to infrastructure such as
-endpoints, pipelines, back-end authentication, load tests, and database configuration.
+The development environment is used to verify that features developed locally work in a cleanly set up environment, which may include changes to infrastructure such as endpoints, pipelines, back-end authentication, load tests, and database configuration.
 
-Merge requests should deploy so-called 
-https://about.gitlab.com/blog/2016/11/22/introducing-review-apps[review apps]
-that allow developers and involved parties to verify feature implementation even before
-changes are merged into the main branch.
+Merge requests should deploy so-called https://about.gitlab.com/blog/2016/11/22/introducing-review-apps[review apps] that allow developers and involved parties to verify feature implementation even before changes are merged into the main branch.
 
-Automated tests run by the pipeline are meant to make sure consistently that existing features
-don't break and manual testing is reduced to a minimum, if necessary at all.
+Automated tests run by the pipeline are meant to make sure consistently that existing features don't break and manual testing is reduced to a minimum, if necessary at all.
 
 === Integration
 
-The integration environment is used as a pre-production environment to confirm the correct
-functioning of all developed features (i.e. the efforts of _all developers_ "integrated into 
-the main branch"). The images deployed here should be the actual images that are release 
-candidates for production.
+The integration environment is used as a pre-production environment to confirm the correct functioning of all developed features (for example, the efforts of _all developers_ "integrated into the main branch"). The images deployed here should be the actual images that are release candidates for production.
 
 === Production
 
-The production environment should be self-explanatory: It's used as the live, productive system 
-accessed by real clients. Images that have been built, deployed, and approved on the integration 
-environment can be deployed here. In extension to that, it's advisable to create an audit trail 
-from the source code to the production state by tagging the deployed images with either the Git 
-commit SHA or the related Git tag.
+The production environment should be self-explanatory: It's used as the live, productive system accessed by real clients. Images that have been built, deployed, and approved on the integration environment can be deployed here. In extension to that, it's advisable to create an audit trail from the source code to the production state by tagging the deployed images with either the Git commit SHA or the related Git tag.
 
 .Reference implementations
 ====

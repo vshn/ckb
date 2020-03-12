@@ -7,7 +7,7 @@ WARNING: Depending on your access rights, your actual screen might differ from w
 
 Thanks to the "Report Hours" screen, customers are notified in real time of the time and effort required to solve tickets. This information is updated in real time as VSHNeers are busy solving issues.
 
-.Worked Hours Report
+.Worked Hours Report screen
 image::reporting-hours.png[]
 
 <1> In this section you can filter the report by month (in this example, only March 2020 is available, and selected automatically.)

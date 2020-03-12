@@ -7,13 +7,18 @@ WARNING: Depending on your access rights, your actual screen might differ from w
 
 This screen gives you an overview of all the servers currently managed on your behalf.
 
+.Servers Report screen
 image::reporting-servers.png[]
 
 <1> Enter some text to filter your servers quickly.
 <2> Export the list of servers to Comma-Separated Values (CSV) or Excel, or print it.
 <3> Click on any entry in the server list to see its details.
 
-.Server detail screen
+== Seeing the details of a server
+
+Click on any entry in the server report to access its detail screen.
+
+.Server details screen
 image::server.png[]
 
 include::partial$footer.adoc[]

@@ -7,6 +7,7 @@ WARNING: Depending on your access rights, your actual screen might differ from w
 
 This screen gives you an overview of all the services currently managed on your behalf.
 
+.Services Report screen
 image::reporting-services.png[]
 
 include::partial$footer.adoc[]

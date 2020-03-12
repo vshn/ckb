@@ -10,7 +10,7 @@
 ** xref:tickets_detail.adoc[Viewing a ticket]
 
 * Reporting
-** xref:reporting_hours.adoc[Reporting hours]
+** xref:reporting_hours.adoc[Accessing the Worked Hours Report]
 ** xref:reporting_servers.adoc[Reporting servers]
 ** xref:reporting_services.adoc[Reporting services]
 

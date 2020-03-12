@@ -1,3 +1,17 @@
-= Reporting Hours
+= Accessing the Worked Hours Report
+
+[[overview]]
+== Overview
+
+Thanks to the "Report Hours" screen, customers are notified in real time of the time and effort required to solve tickets. This information is updated in real time as VSHNeers are busy solving issues.
+
+.Worked Hours Report
+image::reporting-hours.png[]
+
+<1> In this section you can filter the report by month (in this example, only March 2020 is available, and selected automatically.)
+<2> The "Overview" section provides a quick glance at the status of all hours worked across all projects.
+<3> A quick search field can be used to filter report items.
+<4> You can export this data for your own internal use. Two export options are available: Comma-Separated Values (CSV) and Excel. You can also print the information from your browser, as desired.
+<5> The detail of worked hours for each task is available. Clicking on the task name takes you directly to the corresponding issue.
 
 include::partial$footer.adoc[]

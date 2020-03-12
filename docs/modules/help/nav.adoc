@@ -1,5 +1,5 @@
 .Control Panel Help
-* xref:index.adoc[Welcome]
+* xref:index.adoc[How to use the Control Panel]
 * xref:login.adoc[Logging in]
 * xref:dashboard.adoc[Using the Dashboard]
 * xref:faq.adoc[FAQ]

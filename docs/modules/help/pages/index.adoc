@@ -6,10 +6,9 @@ This website contains the complete reference of all functions and possibilities 
 
 Quick link to common topics:
 
-* xref:dashboard.adoc[The Dashboard]
 * xref:tickets_edit.adoc[Creating a ticket]
-** xref:tickets_edit.adoc#secrets[Adding secrets to tickets]
-* xref:reporting_hours.adoc[Reporting hours]
-* xref:users_list.adoc[Listing users]
+* xref:tickets_edit.adoc#secrets[Adding secrets to a ticket]
+* xref:reporting_hours.adoc[Accessing the hours report]
+* xref:users_edit.adoc[Creating new users]
 
 include::partial$footer.adoc[]

@@ -25,6 +25,6 @@ image::ticket-filter.png[]
 <1> This drop-down shows options only if you are allowed to search for tickets from different organizations.
 <2> Enter here some text describing the ticket, either its title or summary.
 <3> Hit the btn:[Search] button to filter tickets. The results will appear below.
-<4> You can expand your search to projects without tasks.
+<4> Projects which currently do not have any active tickets are hidden by default; use this switch to show them.
 <5> You can also expand your search to include closed tickets; by default, only open tickets are shown.
 <6> If you need to create a new ticket, just click on the btn:[Create Ticket] button.

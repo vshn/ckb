@@ -7,6 +7,8 @@ WARNING: Depending on your access rights, your actual screen might differ from w
 
 This screen gives you an overview of all the services currently managed on your behalf.
 
+IMPORTANT: This screen is a billing view, showing all services including their price, and also special deals. It's the actual source used to create invoices. In other words: what appears here will appear on the invoice.
+
 .Services Report screen
 image::reporting-services.png[]
 

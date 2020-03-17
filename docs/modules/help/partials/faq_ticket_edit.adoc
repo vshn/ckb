@@ -33,6 +33,8 @@ To communicate secrets to VSHNeers with a secure mechanism, follow these steps:
 . Select "Week" or "Day" in the **Time to live (TTL)** field. 
 . Click on the btn:[Save] button.
 
+Secrets transmitted through this mechanism can only be viewed once, which prevents anyone else from accessing them, and raises an alert if somebody else views it.
+
 .Ticket secrets
 image::ticket-secrets.png[]
 

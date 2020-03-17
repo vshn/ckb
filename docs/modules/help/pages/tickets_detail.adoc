@@ -17,9 +17,9 @@ The screenshot below shows the major elements of the upper side of the screen.
 image::ticket-detail.png[]
 
 <1> The btn:[Edit] button gives you the possibility to change some of the information associated to the ticket.
-<2> The btn:[Close] button, when enabled, allows you to close and discard this ticket.
+<2> The btn:[Close] button, when enabled, allows you to close and mark this ticket as resolved.
 <3> The right-hand side of the screen shows a summary of the current status of the ticket, including the VSHNeer in charge.
-<4> You can add and remove people from your organization, to involve them in the process associated to this ticket.
+<4> You can add and remove people from your organization; they will receive email notifications whenever new comments are added.
 
 [[faq]]
 == Frequently Asked Questions

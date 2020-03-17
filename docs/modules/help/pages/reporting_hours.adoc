@@ -7,6 +7,8 @@ WARNING: Depending on your access rights, your actual screen might differ from w
 
 Thanks to the "Report Hours" screen, customers are notified in real time of the time and effort required to solve tickets. This information is updated in real time as VSHNeers are busy solving issues.
 
+IMPORTANT: This page is not the final invoice. The hours are controlled by the Service Manager before invoices are sent.
+
 .Worked Hours Report screen
 image::reporting-hours.png[]
 

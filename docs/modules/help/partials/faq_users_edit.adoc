@@ -4,3 +4,19 @@
 The current user creation procedure is not able to create user accounts to reach Icinga or GitLab.
 
 If your new user account needs to be able to access any or both of these systemss, please xref:tickets_edit.adoc[open a ticket].
+
+[[roles]]
+=== What can the different roles do?
+
+Manager:: Can do everything except edit users.
+Admin:: Can do everything including edit users.
+Accounting:: Can see invoices, and read and write tickets.
+APPUiO:: Use appuio.
+Developer:: Can see everything except invoices. Can also create tickets and manage openshift projects.
+Ticket:: read & write tickets.
+
+[[role-selection]]
+=== Can I/should I select multiple roles?
+
+You can, but this is generally not needed.
+

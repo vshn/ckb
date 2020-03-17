@@ -14,7 +14,7 @@ image::ticket-create.gif[]
 
 The steps for the creation of a new ticket are the following:
 
-IMPORTANT: Please enter all information in the ticket in English, as some VSHNeers don't speak German.
+IMPORTANT: The description of the ticket is preferably written in English, as some VSHNeers don't speak German.
 
 . Click on a link or button to access the corresponding form.
 . Enter a **summary**, describing the issue in a few words.
@@ -29,7 +29,7 @@ IMPORTANT: Please enter all information in the ticket in English, as some VSHNee
 ** **Normal** - Minimal impact
 *** Does not require immediate action and can be handled on a first-come first-served basis.
 
-. Indicate the servers affected by this issue in the **Affects** field, if applicable.
+. Indicate the servers or OpenShift clusters affected by this issue in the **Affects** field, if applicable.
 . Select the names of members of your organization in the **Participants** field, so that they are notified about updates to this ticket.
 . Add as much information as possible about the issue at hand in the **Description** field. 
 +

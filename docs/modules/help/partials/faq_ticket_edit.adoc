@@ -1,5 +1,5 @@
 [[creation]]
-=== When is VSHN notified when I create a new ticket?
+=== When's VSHN notified when I create a new ticket?
 
 VSHNeers are notified immediately of the creation of new tickets. Higher priority tickets trigger additional internal alert systems for a faster response.
 

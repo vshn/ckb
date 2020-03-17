@@ -5,7 +5,7 @@
 
 One of the most common use cases of the Control Panel consists in the creation of new tickets. You can access the ticket creation form from various parts of the user interface.
 
-WARNING: Please do not include secrets such as password or private keys in the text of the ticket; please refer to the xref:tickets_edit.adoc#secrets["Frequently Asked Questions" section below] for information about how to securely transmit such information.
+WARNING: Please don't include secrets such as password or private keys in the text of the ticket; please refer to the xref:tickets_edit.adoc#secrets["Frequently Asked Questions" section below] for information about how to securely transmit such information.
 
 The animation below shows how to create a simple ticket, after clicking on the "Create new ticket" link in the xref:dashboard.adoc[Dashboard].
 
@@ -27,10 +27,10 @@ IMPORTANT: The description of the ticket is preferably written in English, as so
 ** **Major** - Limited impact
 *** Important issue which doesn't block further work and doesn't require immediate action.
 ** **Normal** - Minimal impact
-*** Does not require immediate action and can be handled on a first-come first-served basis.
+*** Doesn't require immediate action and can be handled on a first-come first-served basis.
 
 . Indicate the servers or OpenShift clusters affected by this issue in the **Affects** field, if applicable.
-. Select the names of members of your organization in the **Participants** field, so that they are notified about updates to this ticket.
+. Select the names of members of your organization in the **Participants** field, so that they're notified about updates to this ticket.
 . Add as much information as possible about the issue at hand in the **Description** field. 
 +
 TIP: If you are familiar with https://jira.atlassian.com/secure/WikiRendererHelpAction.jspa?section=all[Jira markup], you can use it here.

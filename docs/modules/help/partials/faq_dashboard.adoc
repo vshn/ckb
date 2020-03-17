@@ -1,7 +1,7 @@
 [[password-change]]
 === How can I change my password?
 
-You can change your password at any time during your session. Click the user avatar on the top right and select menu:Change Password[]. You can ask for a new random password by clicking on the "Generate a password for me" link.
+You can change your password at any time during your session. Click the user avatar on the top right and select menu:Change Password[]. You can request a new random password by clicking on the "Generate a password for me" link.
 
 IMPORTANT: We highly recommend a long (16 characters), random password. You can store it in a password manager such as https://lastpass.com/[LastPass], https://www.enpass.io/[Enpass] or https://1password.com/[1Password].
 

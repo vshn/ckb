@@ -1,6 +1,6 @@
 = Adding or modifying users
 
-WARNING: Depending on your access rights, your actual screen might differ from what is shown in the screenshots in this help system.
+WARNING: Depending on your access rights, your actual screen might differ from what's shown in the screenshots in this help system.
 
 [[overview]]
 == Overview

@@ -5,7 +5,7 @@ WARNING: Depending on your access rights, your actual screen might differ from w
 [[overview]]
 == Overview
 
-This screen gives you an overview of all the servers currently managed on your behalf.
+This screen gives you an overview of all the servers currently managed on your behalf, allowing you to select the "facts" that you would like to see in your report.
 
 .Servers Report screen
 image::reporting-servers.png[]
@@ -14,11 +14,26 @@ image::reporting-servers.png[]
 <2> Export the list of servers to Comma-Separated Values (CSV) or Excel, or print it.
 <3> Click on any entry in the server list to see its details.
 
-== Seeing the details of a server
+== Adding facts to a report
 
-Click on any entry in the server report to access its detail screen.
+Follow these steps to add facts to a report:
+
+. Select one of the servers from the list, by clicking on its domain name. This will take you to the menu:Server Management[] section of the Customer Portal.
+. The tab on top of the screen is pre-selected with the btn:[Details] option. Select the btn:[Facts] option.
 
 .Server details screen
-image::server.png[]
+image::server-details.png[]
+
+[start=3]
+. Select facts to be included in the report by clicking on the switch controls next to each available fact.
+
+.Choosing facts to be shown on a server report
+image::reporting-servers-choosing-facts.png[]
+
+[start=4]
+. Click on the btn:[Report] link to go back to the menu:Reporting[Servers] screen of the Customer Portal. You will see the facts you selected previously, for all servers on a table. You can export the contents of the report to a CSV or Excel file by clicking the corresponding buttons next to the search field.
+
+.Viewing the report
+image::reporting-servers-report.png[]
 
 include::partial$footer.adoc[]

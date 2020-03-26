@@ -24,7 +24,7 @@ The sync runs as a pre-backup job before the *daily* (after 22:00) backup. It it
 
 === Restore
 
-For the customer shared solution there is no self-service for a customer to restore objects. Restores are done by VSHN. Please create a ticket in https://control.vshn.net/[the Control Panel] and tell us the bucket and which objects from what date to restore. We can restore back to the bucket or copy the objects as files to a server, a share, etc.
+For the customer shared solution there is no self-service for a customer to restore objects. Restores are done by VSHN. Please create a ticket in https://control.vshn.net/[the Customer Portal] and tell us the bucket and which objects from what date to restore. We can restore back to the bucket or copy the objects as files to a server, a share, etc.
 
 === Custom Options
 

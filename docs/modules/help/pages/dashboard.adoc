@@ -5,12 +5,12 @@ WARNING: Depending on your access rights, your actual screen might differ from w
 [[main-screen]]
 == Main screen
 
-The Dashboard is the main screen of the https://control.vshn.net[Control Panel]. It offers a quick navigation mechanism across all functional areas.
+The Dashboard is the main screen of the https://control.vshn.net[Customer Portal]. It offers a quick navigation mechanism across all functional areas.
 
-.The Control Panel dashboard
+.The Customer Portal dashboard
 image::dashboard.png[]
 
-<1> The menu on the left side provides quick access to major sections of the Control Panel.
+<1> The menu on the left side provides quick access to major sections of the Customer Portal.
 <2> Click here to quickly xref:tickets_edit.adoc[create a new ticket].
 <3> The list of open tickets you are involved in.
 
@@ -19,7 +19,7 @@ image::dashboard.png[]
 
 The Dashboard is also easily accessible with the most common mobile web browsers on smartphone platfoms such as iOS or Android.
 
-.The Control Panel on a mobile device
+.The Customer Portal on a mobile device
 image::dashboard-mobile.png[]
 
 [[faq]]

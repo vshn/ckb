@@ -3,7 +3,7 @@
 [[overview]]
 == Overview
 
-One of the most common use cases of the Control Panel consists in the creation of new tickets. You can access the ticket creation form from various parts of the user interface.
+One of the most common uses of the Customer Portal consists in the creation of new tickets. You can access the ticket creation form from various parts of the user interface.
 
 WARNING: Please don't include secrets such as password or private keys in the text of the ticket; please refer to the xref:tickets_edit.adoc#secrets["Frequently Asked Questions" section below] for information about how to securely transmit such information.
 

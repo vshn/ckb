@@ -2,7 +2,7 @@
 
 == Authentication
 
-You need an access token to use this API. You can create this token in the menu:Customer Portal[Administration > API Tokens] https://control.vshn.net/tokens[section of the Control Panel].
+You need an access token to use this API. You can create this token in the menu:Customer Portal[Administration > API Tokens] https://control.vshn.net/tokens[section of the Customer Portal].
 
 The access token must be added to each request via the `X-AccessToken` HTTP header or `accessToken` query parameter. You must also configure your *client IP addresses*.
 

@@ -1,5 +1,5 @@
-.Control Panel Help
-* xref:index.adoc[How to use the Control Panel]
+.Customer Portal Help
+* xref:index.adoc[How to use the Customer Portal]
 * xref:login.adoc[Logging in]
 * xref:dashboard.adoc[Using the Dashboard]
 * xref:faq.adoc[FAQ]

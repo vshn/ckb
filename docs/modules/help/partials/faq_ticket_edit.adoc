@@ -11,7 +11,7 @@ image::ticket-email.png[]
 
 Depending on the priority of the ticket and your support SLA, one or many of the following might happen:
 
-* Very often VSHNeers will add comments to the ticket, asking for more information or requesting for your feedback. You will be notified by e-mail of these comments, and you can see the history of conversations in the Control Panel.
+* Very often VSHNeers will add comments to the ticket, asking for more information or requesting for your feedback. You will be notified by e-mail of these comments, and you can see the history of conversations in the Customer Portal.
 +
 .Comments in tickets
 image::ticket-comments.png[]
@@ -33,8 +33,7 @@ To communicate secrets to VSHNeers with a secure mechanism, follow these steps:
 . Select "Week" or "Day" in the **Time to live (TTL)** field. 
 . Click on the btn:[Save] button.
 
-Secrets transmitted through this mechanism can only be viewed once, which prevents anyone else from accessing them, and raises an alert if somebody else views it.
+The Customer Portal is designed in such a way that secrets transmitted through this mechanism can only be viewed once, which prevents anyone else from accessing them.
 
 .Ticket secrets
 image::ticket-secrets.png[]
-

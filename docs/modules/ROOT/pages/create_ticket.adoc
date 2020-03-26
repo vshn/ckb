@@ -6,9 +6,9 @@
 
 I want to create a ticket for VSHN regarding an issue.
 
-== In VSHN Control Panel
+== In VSHN Customer Portal
 
-. Navigate to https://control.vshn.net/tickets/_create[the Control Panel].
+. Navigate to https://control.vshn.net/tickets/_create[the Customer Portal].
 . Select the menu:Tickets[] entry on the navigation tree on the left side of the screen.
 . Click the btn:[Create Ticket] button.
 

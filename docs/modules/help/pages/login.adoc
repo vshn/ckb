@@ -3,9 +3,9 @@
 [[login]]
 == Logging in
 
-To log in to the Control Panel, enter your username and password.
+To log in to the Customer Portal, enter your username and password.
 
-.Logging in to the Control Panel
+.Logging in to the Customer Portal
 image::login.gif[]
 
 [[error]]

@@ -1,8 +1,8 @@
-= How to use the Control Panel
+= How to use the Customer Portal
 
 image::ROOT:vshn_logo.png[]
 
-This website contains the complete reference of all functions and possibilities offered in the https://control.vshn.net/[Control Panel]. Use the search function on the top right corner of this website to find answers to your questions.
+This website contains the complete reference of all functions and possibilities offered in the https://control.vshn.net/[Customer Portal]. Use the search function on the top right corner of this website to find answers to your questions.
 
 Quick link to common topics:
 

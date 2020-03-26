@@ -2,7 +2,7 @@
 
 == Authentication
 
-You need an access token to use this API. You can create this token in the menu:Customer Portal[Administration > API Tokens] https://control.vshn.net/tokens[section of the Customer Portal].
+You need an access token to use this API. You can create this token in the menu:VSHN Portal[Administration > API Tokens] https://control.vshn.net/tokens[section of the VSHN Portal].
 
 The access token must be added to each request via the `X-AccessToken` HTTP header or `accessToken` query parameter. You must also configure your *client IP addresses*.
 
@@ -12,7 +12,7 @@ With that token, you will be able to access the same data as you can see in the 
 
 === Multiple APIs, versioning
 
-The customer portal provides multiple APIs. An access token only works on one API.
+The VSHN Portal provides multiple APIs. An access token only works on one API.
 
 Each API is versioned independently by adding a single integer version number at the end of the base URL, starting with 1. The *Base URL* as specified in the documentation always *includes the current version number*.
 

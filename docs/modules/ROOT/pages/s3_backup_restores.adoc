@@ -24,11 +24,11 @@ The sync runs as a pre-backup job before the *daily* (after 22:00) backup. It it
 
 === Restore
 
-For the customer shared solution there is no self-service for a customer to restore objects. Restores are done by VSHN. Please create a ticket in https://control.vshn.net/[the Customer Portal] and tell us the bucket and which objects from what date to restore. We can restore back to the bucket or copy the objects as files to a server, a share, etc.
+For the customer shared solution there is no self-service for a customer to restore objects. Restores are done by VSHN. Please create a ticket in the https://control.vshn.net/[VSHN Portal] and tell us the bucket, which objects, and from which date to restore. We can restore back to the bucket or copy the objects as files to a server, a file share, etc.
 
 === Custom Options
 
-The customer shared solution isn't tuneable (backup frequency, retention, etc.) on a per customer basis. If you need this, a customer dedicated VM could make sense here.
+The customer shared solution isn't tuneable (backup frequency, retention, etc.) on a per customer basis. If you need this, a customer dedicated VM could make sense.
 
 The only thing that's configurable is which API users or buckets we backup. If you need this changed, please create a ticket.
 

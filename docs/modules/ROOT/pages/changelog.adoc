@@ -6,7 +6,7 @@
 [discrete]
 == 2020–XX–XX: Version 1.1
 
-* Added Customer Portal help system.
+* Added VSHN Portal help system.
 
 [discrete]
 == 2019–10–01: Version 1.0

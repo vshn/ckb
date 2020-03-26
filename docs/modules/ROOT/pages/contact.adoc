@@ -6,7 +6,7 @@
 
 == E-Mail Support / Helpdesk
 
-See xref:create_ticket.adoc[Create Ticket] for detailed information. The ticket system is fully integrated into our https://control.vshn.net/[Customer Portal].
+See xref:create_ticket.adoc[Create Ticket] for detailed information. The ticket system is fully integrated into our https://control.vshn.net/[VSHN Portal].
 
 == Contact address
 
@@ -19,7 +19,7 @@ General inquiries: info@vshn.ch +
 Sales: sales@vshn.ch +
 Support: support@vshn.ch
 
-NOTE: E-mails to support@vshn.ch are tracked in our Ticket System and help us to improve response time and quality of service. You can also use our https://control.vshn.net/[Customer Portal] to open a support ticket. If you're not a customer yet please use sales@vshn.ch to get in touch.
+NOTE: E-mails to support@vshn.ch are tracked in our Ticket System and help us to improve response time and quality of service. You can also use our https://control.vshn.net/[VSHN Portal] to open a support ticket. If you're not a customer yet please use sales@vshn.ch to get in touch.
 
 == Emergency contact procedure outside office hours
 

@@ -11,7 +11,7 @@ image::dashboard-change-password.gif[]
 [[logout]]
 === How can I log out?
 
-When your session is finished, log out from the Customer Portal by clicking the user avatar on the top right and select the menu:Logout[] option.
+When your session is finished, log out from the VSHN Portal by clicking the user avatar on the top right and select the menu:Logout[] option.
 
 .Logging out
 image::dashboard-logout.gif[]

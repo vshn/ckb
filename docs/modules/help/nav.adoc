@@ -1,5 +1,5 @@
-.Customer Portal Help
-* xref:index.adoc[How to use the Customer Portal]
+.VSHN Portal Help
+* xref:index.adoc[How to use the VSHN Portal]
 * xref:login.adoc[Logging in]
 * xref:dashboard.adoc[Using the Dashboard]
 * xref:faq.adoc[FAQ]

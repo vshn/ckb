@@ -3,9 +3,9 @@
 [[login]]
 == Logging in
 
-To log in to the Customer Portal, enter your username and password.
+To log in to the VSHN Portal, enter your username and password.
 
-.Logging in to the Customer Portal
+.Logging in to the VSHN Portal
 image::login.gif[]
 
 [[error]]

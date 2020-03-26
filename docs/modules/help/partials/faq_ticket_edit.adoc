@@ -16,7 +16,7 @@ Depending on the priority of the ticket and your support SLA, one or many of the
 .Comments in tickets
 image::ticket-comments.png[]
 
-* Your ticket will change its identification, from `SUPPORT` to the code of your support project. In that case, the layout of the ticket list will change significatly, showing the projects and its associated tickets inside, as shown in the picture below.
+* If your ticket belongs to a support project, the layout of the ticket list will change significatly, showing the projects and its associated tickets inside, as shown in the picture below.
 +
 .Ticket projects
 image::ticket-projects.png[]

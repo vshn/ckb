@@ -1,1 +1,1 @@
-include::docs/modules/ROOT/pages/changelog.adoc[]
+include::docs/modules/about/pages/changelog.adoc[]

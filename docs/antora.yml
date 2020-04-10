@@ -1,7 +1,9 @@
-name: kb
+name: ''
 title: VSHN Knowledge Base
 version: master # --> versionless
 start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc
+- modules/kb/nav.adoc
 - modules/help/nav.adoc
+- modules/about/nav.adoc

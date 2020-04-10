@@ -1,43 +1,4 @@
 * xref:index.adoc[Home]
 
-* xref:changelog.adoc[Changelog]
-
 * xref:contact.adoc[Contact VSHN]
 ** xref:create_ticket.adoc[Create a Ticket]
-
-.Knowledge Base
-* xref:backup_concept.adoc[Backup]
-** xref:list_available_backups.adoc[List Available Backups]
-** xref:list_files_backup.adoc[List Files in Backup]
-** xref:mongodb_burp.adoc[MongoDB with BURP]
-** xref:openshift_backup.adoc[OpenShift 3 Backup]
-** xref:postgresql_burp.adoc[PostgreSQL with BURP]
-** xref:restore_from_backup.adoc[Restore Files from Backup]
-** xref:restore_mysql_burp.adoc[Restore MySQL/MariaDB with BURP]
-** xref:s3_backup_restores.adoc[S3 Backup and Restores]
-** xref:solr_backup_restore.adoc[Solr Backup and Restore]
-** xref:view_backup_log_file.adoc[View Backup Log File]
-** xref:vcs_repos_burp.adoc[VCS Repositories with BURP]
-** xref:lvm_snapshots_burp.adoc[LVM Snapshots with BURP]
-
-* xref:maintenance_process.adoc[Maintenance Process]
-
-* xref:monitoring_concept.adoc[Monitoring]
-
-* xref:cicd_concept.adoc[Continuous Delivery]
-
-* Puppet
-** xref:customer_pacco.adoc[Customer Pacco]
-
-* DNS
-** xref:dns_cnames_root.adoc[DNS CNAMEs on Root of Domain]
-** xref:dns_serial_number_rollover.adoc[DNS Serial Number Rollover]
-
-* VSHN Control APIs
-** xref:api_basics.adoc[Basics]
-** xref:api_dns.adoc[DNS]
-** xref:api_openshift.adoc[OpenShift]
-** xref:api_servers.adoc[Servers]
-
-* OpenShift
-** xref:openshift_red_hat_registry.adoc[Red Hat container registry]

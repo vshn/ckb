@@ -1,0 +1,17 @@
+:page-partial:
+
+= Create Ticket
+
+== Problem
+
+I want to create a ticket for VSHN regarding an issue.
+
+== In the VSHN Portal
+
+. Navigate to the https://control.vshn.net/tickets/_create[VSHN Portal] at btn:[control.vshn.net].
+. Select the menu:Tickets[] entry on the navigation tree (on the left side of the screen).
+. Click the btn:[xref:help:tickets_edit.adoc[Create Ticket]] button.
+
+== By E-Mail
+
+Send an E-Mail to support@vshn.ch.

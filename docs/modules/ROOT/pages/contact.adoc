@@ -6,7 +6,7 @@
 
 == E-Mail Support / Helpdesk
 
-See xref:create_ticket.adoc[Create Ticket] for detailed information. The ticket system is fully integrated into our https://control.vshn.net/[VSHN Portal].
+See xref:kb:create_ticket.adoc[Create Ticket] for detailed information. The ticket system is fully integrated into our https://control.vshn.net/[VSHN Portal].
 
 == Contact address
 

@@ -1,4 +1,6 @@
 .Knowledge Base
+* xref:create_ticket.adoc[Create a Ticket]
+
 * xref:backup_concept.adoc[Backup]
 ** xref:list_available_backups.adoc[List Available Backups]
 ** xref:list_files_backup.adoc[List Files in Backup]
@@ -17,8 +19,6 @@
 
 * xref:monitoring_concept.adoc[Monitoring]
 
-* xref:cicd_concept.adoc[Continuous Delivery]
-
 * Puppet
 ** xref:customer_pacco.adoc[Customer Pacco]
 
@@ -34,3 +34,5 @@
 
 * OpenShift
 ** xref:openshift_red_hat_registry.adoc[Red Hat container registry]
+
+* xref:cicd_concept.adoc[Continuous Delivery]

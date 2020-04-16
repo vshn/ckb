@@ -12,9 +12,9 @@ NOTE: On OpenShift Container Platforms, the credentials required to access Red H
 
 == Step by step guide
 
-0. Get a Red Hat login. If you don't already have one, you can create one for free by signing up to the https://developers.redhat.com/[Red Hat Developer program]. This will give you free access to developer tools and programs.
-0. Create a https://access.redhat.com/terms-based-registry/[Registry Service Account].
-0. Authenticate your local Docker installation with the Red Hat registry. To obtain the command required to do so, select the service account you just created and go to the "Docker Login" tab.
+. Get a Red Hat login. If you don't already have one, you can create one for free by signing up to the https://developers.redhat.com/[Red Hat Developer program]. This will give you free access to developer tools and programs.
+. Create a https://access.redhat.com/terms-based-registry/[Registry Service Account].
+. Authenticate your local Docker installation with the Red Hat registry. To obtain the command required to do so, select the service account you just created and go to the "Docker Login" tab.
 
 And that's it! You should now be able to pull container images from the Red Hat registry:
 

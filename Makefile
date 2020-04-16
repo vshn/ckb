@@ -1,6 +1,6 @@
 pages   := $(shell find . -type f -name '*.adoc')
 out_dir := ./_archive
-web_dir := ./_public
+web_dir := ./_public/ROOT
 
 docker_cmd  ?= docker
 docker_opts ?= --rm --tty --user "$$(id -u)"
@@ -40,4 +40,3 @@ $(web_dir)/index.html: playbook.yml $(pages)
 .PHONY: check
 check:
 	$(vale_cmd)
-

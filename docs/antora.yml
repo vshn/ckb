@@ -1,4 +1,4 @@
-name: ''
+name: ROOT
 title: VSHN Knowledge Base
 version: master # --> versionless
 start_page: ROOT:index.adoc

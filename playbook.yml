@@ -1,7 +1,7 @@
 site:
   title: "DRAFT: Knowledge Base"
   url: http://localhost/
-  start_page: kb::index.adoc
+  start_page: ROOT::index.adoc
   robots: disallow
 content:
   sources:
@@ -34,4 +34,3 @@ output:
   - provider: archive
     path: ./_archive/site.zip
     clean: true
-

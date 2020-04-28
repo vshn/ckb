@@ -2,9 +2,13 @@
 
 In order to ensure that code released to production is of the highest possible quality, and to maximize development speed and ensure least possible impact on operations for releasing updates, we recommend setting up three separate deployment environments to play different roles in the Continuous Integration/Continuous Delivery (CI/CD) process.
 
-== Target Enviroments
+== Target Environments
 
-A typical CI/CD framework would deploy images to the following three environments:
+A typical CI/CD framework would deploy images to 3 environments:
+
+. Development
+. Integration
+. Production
 
 === Development
 

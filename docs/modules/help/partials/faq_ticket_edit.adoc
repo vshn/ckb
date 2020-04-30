@@ -20,20 +20,3 @@ image::ticket-comments.png[]
 +
 .Ticket projects
 image::ticket-projects.png[]
-
-[[secrets]]
-=== How can I add secrets (passwords, keys, etc.) to tickets?
-
-To communicate secrets to VSHNeers with a secure mechanism, follow these steps:
-
-. After creating a new ticket, click on it on the list of tickets, and scroll down until the section "Secrets" is visible.
-. Click on the btn:[Add Secret] button.
-. Enter a name for the secret in the **Name** field.
-. Enter the value of the secret in the **Secret** field.
-. Select "Week" or "Day" in the **Time to live (TTL)** field. 
-. Click on the btn:[Save] button.
-
-The VSHN Portal is designed in such a way that secrets transmitted through this mechanism can only be viewed once, which prevents anyone else from accessing them.
-
-.Ticket secrets
-image::ticket-secrets.png[]

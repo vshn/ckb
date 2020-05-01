@@ -1,0 +1,158 @@
+= Support Matrix
+
+TIP: This document is currently in public beta and being worked on actively
+
+The tables list the officially and by default supported clouds and main features. If a cloud or a feature / combination is not listed, it's not supported by VSHN by default.
+
+* *Provisioning*: How the cluster gets provisioned / configured / customized
+* *Autoscaling*: Is support for autoscaling available or not
+* *Application HA*: Is access to applications available in high-availability? This means: HS Load-balancer and IP HA
+* *Storage*: Which storage options are available (CSI included, storage cluster is an addon)
+* *Load Balancer*: Implementation of network level load balancer
+
+== Red Hat OpenShift 4
+
+[cols=",,,,,",options="header",]
+|===
+|Compute |Provisioning |Autoscaling |Application HA |Storage |Load balancer
+|cloudscale.ch |Terraform, UPI | |(addon) a|
+* CSI  (block storage only)
+* Red Hat OpenShift Container Storage 4
+
+|VM-based by VSHN
+|AWS EC2 VMs |IPI | | a|
+* AWS EBS and EFS
+* Red Hat OpenShift Container Storage 4
+
+|AWS ELB or ALB
+|Azure VMs |IPI | | a|
+* Azure storage
+* Red Hat OpenShift Container Storage 4
+
+|Azure LB
+|Google VMs |IPI | | a|
+* Google cloud storage
+* Red Hat OpenShift Container Storage 4
+
+|Google LB
+|VMware |Terraform, UPI | | a|
+* CSI  (block storage only)
+* Red Hat OpenShift Container Storage 4
+
+|
+|Hyper-V |Terraform, UPI | | a|
+* CSI  (block storage only)
+* Red Hat OpenShift Container Storage 4
+
+|
+|===
+
+=== Minimum Requirements
+
+[cols=",,,,,",options="header",]
+|===
+|Role |Minimal count |Operating System |vCPU |RAM |Storage
+|Control plane |3 |RHCOS |4 |16 GB |120 GB
+|Compute |2 |RHCOS |4 |16 GB |120 GB
+|Load balancer |2 |Ubuntu |2 |8 GB |50 GB
+|===
+
+* https://docs.openshift.com/container-platform/4.3/scalability_and_performance/planning-your-environment-according-to-object-maximums.html[Planning your environment according to object maximums]
+* https://docs.openshift.com/container-platform/4.3/installing/installing_bare_metal/installing-bare-metal.html#minimum-resource-requirements_installing-bare-metal[Minimum resource requirements]
+* No compute workload is allowed on control plane nodes
+* Control plane must run on fast storage (for etcd)
+* The bootstrap VM is only used for a short time and therefore not listed in this table: +
+4 vCPUs, 16 GB RAM, 120 GB storage, RHCOS
+* The load balancer is only needed on some clouds (see Support Matrix)
+
+=== Maximum Supported by VSHN
+
+Unless otherwise documented in the table below, the official numbers by Red Hat apply: https://docs.openshift.com/container-platform/latest/scalability_and_performance/planning-your-environment-according-to-object-maximums.html#cluster-maximums_object-limits[OpenShift Container Platform tested cluster maximums] and https://docs.openshift.com/container-platform/4.3/scalability_and_performance/planning-your-environment-according-to-object-maximums.html#cluster-maximums-environment_object-limits[OpenShift Container Platform environment and configuration on which the cluster maximums are tested].
+
+[cols=",",options="header",]
+|===
+|Unit |Value
+|Pods per Node |110
+|===
+
+== Rancher
+
+[cols=",,,,,",options="header",]
+|===
+|Compute |Provisioning |Autoscaling |Application HA |Storage |Load balancer
+|cloudscale.ch |Rancher (RKE) | |(addon) a|
+* CSI  (block storage only)
+* Rook
+
+|VM-based by VSHN
+|Exoscale |Rancher (RKE) | |(addon) a|
+* Rook
+
+|VM-based by VSHN
+|AWS EC2 VMs |Rancher (RKE) | | a|
+* AWS EBS and EFS
+* Rook
+
+|AWS ELB or ALB
+|Azure VMs |Rancher (RKE) | | a|
+* Azure storage
+* Rook
+
+|Azure LB
+|Google VMs |Rancher (RKE) | | a|
+* Google cloud storage
+* Rook
+
+|Google LB
+|AWS EKS |Terraform | | a|
+* AWS EBS and EFS
+* Rook
+
+|AWS ELB or ALB
+|Azure AKS |Terraform | | a|
+* Azure storage
+* Rook
+
+|Azure LB
+|Google GKE |Terraform | | a|
+* Google cloud storage
+* Rook
+
+|Google LB
+|VMware |Rancher (RKE) | | a|
+* CSI  (block storage only)
+* Rook
+
+|
+|Hyper-V |Rancher (RKE) | | a|
+* CSI  (block storage only)
+* Rook
+
+|
+|===
+
+* The assumption is that all Kubernetes clusters are managed with the VSHN Shared Rancher Management Server.
+
+=== Minimum Requirements
+
+[cols=",,,,,",options="header",]
+|===
+|Role |Minimal count |Operating System |vCPU |RAM |Storage
+|Control plane (controlplane, etcd) +
+(applies only to RKE - VM-based) |3 |Ubuntu |4 |8 GB |50 GB
+|Compute (worker) |2 |Ubuntu |4 |16 GB |50 GB
+|===
+
+* https://rancher.com/docs/rancher/v2.x/en/overview/architecture-recommendations/[Architecture Recommendations]
+* Compute workload can run on masters, but isn't recommended and no SLA is available when doing so
+* Control plane must run on fast storage (for etcd)
+
+=== Maximum Supported by VSHN
+
+Unless otherwise documented in the table below, the numbers of the used Kubernetes distribution apply or when in doubt the ones found in the official Kubernetes documentation, matching the used Kubernetes version: https://kubernetes.cn/docs/setup/best-practices/cluster-large/[Building large clusters].
+
+[cols=",",options="header",]
+|===
+|Unit |Value
+|Pods per Node |110
+|===

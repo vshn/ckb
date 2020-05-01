@@ -1,0 +1,53 @@
+= Support Levels
+
+TIP: This document is currently in public beta and being worked on actively
+
+The support level defines how much support a customer can get from VSHN. A support level can be chosen per cluster.
+
+== Overview
+
+[cols=",,,",options="header",]
+|===
+| |Standard |Pro |Premium
+|*Support Channels* a|
+* Private ticket via VSHN Portal
+* Public GitHub issue
+
+a|
+All from Standard plus:
+
+* Chat
+* Video
+* Phone
+
+a|
+All from Pro plus:
+
+* 24/7 On-Call Phone
+
+|*Hours of Coverage* |Best effort, usually next business day |Swiss business hours (09:00 - 18:00 CET/CEST) a|
+All from Pro plus:
+
+* 24/7 for Severity "Emergency" and "Blocker"
+
+|*Consulting Availability* |Best effort |Next business day |4 hours
+|*Support Priority* |Best effort |Priority 2 |Priority 1
+|*Hours of Tickets* |None included, paid by the hour |Up to 8 hours per month |Up to 16 hours per month
+|===
+
+== Response Times
+
+Initial and ongoing response
+
+[cols=",,,",options="header",]
+|===
+| Severity |Standard |Pro |Premium
+| *Emergency* |Best effort |2 hour |1 hour
+| *Blocker* |Best effort |4 hours |2 hours
+| *Major* |Best effort |1 business day |1 business day
+| *Normal* |Best effort |2 business days |2 business days
+|===
+
+* Notes for Premium:
+** Ongoing response time can also be adjusted as agreed during the case
+** A dedicated point of contact on the customers side must be defined and be available all the time during working on the issue

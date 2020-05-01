@@ -1,0 +1,55 @@
+= VSHN Certified Service Provider (VCSP)
+
+TIP: This document is currently in public beta and being worked on actively
+
+To distinguish the levels of support for technology and automation an infrastructure provider has, we put a label on them stating to which level a Cloud Service Provider has integration for Kubernetes and support for other services.
+
+[cols=",,",options="header",]
+|===
+|Level |Description |Applicable to
+|1 a|
+_VM Provider_
+
+* Basic VM hosting
+* Supported by OpenShift 4 UPI Mode
+
+a|
+* green.ch
+* VMware
+* Hyper-V
+
+|2 a|
+(Automated) _IaaS Provider_
+
+* VM hosting
+* Automation via Terraform possible
+* Basic integration in Kubernetes f.e. CSI
+* No or a few additional services to VM like object store
+* Supported by OpenShift 4 UPI Mode
+
+a|
+* cloudscale.ch
+* Exoscale
+* Swisscom DCS+
+
+|3 a|
+_Hyperscaler Provider_
+
+* Full integration in Kubernetes via cloud integration
+* 100% automation possible
+* Important services available:
+** Load Balancer
+** Object Store, storage as a service
+* Supported by OpenShift 4 IPI Mode
+
+a|
+* AWS: EKS, EC2
+* Google Cloud: GKE, VMs
+* Azure: AKS, VMs
+
+|===
+
+_Glossary_:
+
+* *UPI*: "User Provisioned Infrastructure". Infrastructure which isn't officially supported by the OpenShift Installer, but supported by OpenShift. See also https://docs.openshift.com/container-platform/latest/architecture/architecture-installation.html#available-platforms_architecture-installation[Installation and update - Available platforms]
+* *IPI*: "Installer Provisioned Infrastructure". Infrastructure which is officially fully supported by the OpenShift Installer. See also https://docs.openshift.com/container-platform/latest/architecture/architecture-installation.html#available-platforms_architecture-installation[Installation and update - Available platform]

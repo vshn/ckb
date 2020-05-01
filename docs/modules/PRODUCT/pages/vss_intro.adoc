@@ -1,0 +1,114 @@
+= Introduction
+
+TIP: This document is currently in public beta and being worked on actively
+
+*VSHN Syn Support* provides a fully managed https://syn.tools[Project Syn] enabled Kubernetes cluster in several flavors and on several clouds. VSHN provisions and maintains the Kubernetes cluster throughout its lifetime and makes sure the Project Syn provided tools are running and available to the user of the platform. The user of the application environment gets support and operations from VSHN.
+
+It is available in these main *flavors*:
+
+https://www.openshift.com/[Red Hat OpenShift 4]::
+  It is available in the full-fledged "Container Platform" and in the slimmed down version "Container Engine"
+
+https://rancher.com/products/rancher/[Rancher]::
+  All non-OpenShift Kubernetes Clusters are managed with Rancher. These are VM-based and Cloud managed Kubernetes.
+
+For each cluster a xref:vss_support_levels.adoc[Support Level] can be chosen.
+
+== Included Services and Features
+
+The following list shows what's included in *VSHN Syn Support*
+
+=== Kubernetes Platform features
+
+Cluster provisioning::
+
+Provisioning of Kubernetes cluster on supported clouds (see xref:vss_support_matrix.adoc[Support Matrix]).
+
+Cluster maintenance::
+
+The cluster components (control plane and worker nodes) are regularly maintained and updated with the latest patches and releases.
+
+Backup::
+
+Regular backup of cluster configuration including monitoring of success.
+
+Monitoring and Alerting::
+
+Monitoring of cluster and system services functionality and alert handling according to SLA. Alert rules and thresholds are continuously assesed and regularly maintained.
++
+NOTE: This includes the Kubernetes cluster and the Project Syn provided tooling, no customer application and services running on the cluster.
+
+Metrics::
+
+Metrics emitted by all system services and the Kubernetes cluster components are continuosly collected and presented in a graphical way.
+
+System Services::
+
+A bunch of System Services is included:
+
+* https://cert-manager.io/[cert-manager]: Automated certificate management, supports Let's Encrypt
+* https://github.com/tnozicka/openshift-acme[ACME Controller] (only on OpenShift): Let's Encrypt support for OpenShift routes
+* ...
+
+Persistent Storage::
+
+Persistent storage is available out of the box with CSI (Container Storage Interface) when supported by the infrastructure provider. Additional persistent storage is available with the "Managed Kubernetes Storage Cluster" product.
+
+=== Project Syn features
+
+GitOps::
+
+Every cluster has https://argoproj.github.io/argo-cd/[Argo CD] deployed which is managed by VSHN with Project Syn.
++
+Each cluster has its own configuration Git repository managed either by Lieutenant or by the customer itself. This repository stores the whole configuration of the cluster for all Project Syn tools.
++
+Argo CD can also be used by the customer to deploy applications using GitOps.
+
+Crossplane::
+
+For deploying services like databases, caches or others Crossplane is available on each cluster.
++
+VSHN provides a set of best-practice configuration and configures Crossplane to be ready to use.
++
+Taking care of the provisioned services is not part of the service but can be requested from VSHN with additional services.
+
+K8up for Backup::
+
+The backup Operator K8up is preinstalled and configured, ready to be used by the user of the platform. It provisions backup destination S3 buckets with Crossplane.
+
+Secret Management with Vault::
+
+No secrets are stored in plaintext, they all live in protected key stores. By applying best-practices configuration we ensure secure configuration by default of all components. Only TLS secured connections are used. A Hashicorp Vault instance is provided per Cluster, ready to be used by the user of the platform.
+
+Tools Maintenance with Renovate::
+
+Tools and system services managed with Project Syn are automatically maintained with Renovate and deployed/updated with GitOps mechanisms.
+
+Inventory::
+
+Keeping an overview of all the Kubernetes clusters, their versions, locations and other important information is provided by Lieutenant and available in the VSHN Portal.
+
+=== VSHN Support and Services
+
+Alert handling::
+
+* Reacting to alerts and handle them according to a specified SLA
+* 24/7 operations (with SLA)
+* Continuous improvement of Alertrules based and day-to-day experience
+* SLA reporting when an SLA is added
+
+Best-Practices Configuration::
+
+VSHN makes use of best-practices configuration, learned from running Kubernetes and applications on top of it in production since many years, and applies them continuously. As the best-practices evolve over time, they are integrated as they are learned.
+
+Expert Pool::
+
+The Kubernetes experts at VSHN are available to help the user of the platform.
+
+VSHN Portal::
+
+Via the VSHN Portal self-service capability is available.
+
+Rancher Management Server::
+
+Access to the VSHN managed shared Rancher Management Server when using a Rancher managed Kubernetes cluster. Not available for OpenShift.

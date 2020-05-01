@@ -1,0 +1,35 @@
+= Price Model
+
+TIP: This document is currently in public beta and being worked on actively
+
+VSHN service billing is modeled like the supplier model and is different per flavor. For each managed Kubernetes cluster, these units are counted:
+
+[cols=",",options="header",]
+|===
+|Unit |Description
+|*Cluster* a|
+Base fee, including:
+
+* Kubernetes Control Plane (API Server, Controller Manager, etcd)
+* Kubernetes Nodes running the Control Plane
+* Shared base services (Monitoring, Backup, Rancher Management Server, ...)
+* Cluster provisioning and configuration
+* Synfection (Project Syn Tools)
+* Cluster system services like load balancer, cert manager and others
+
+|*Compute* a|
+Each compute unit is counted, it includes:
+
+* Kubernetes Worker Nodes
+* Counted units:
+** Red Hat OpenShift 4: vCPU
+** Rancher: Node
+
+|===
+
+A managed Kubernetes cluster invoice consists of these *positions*:
+
+* Cluster
+* Compute
+* Supplier subscription fees
+* Additional features

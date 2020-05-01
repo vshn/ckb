@@ -1,0 +1,9 @@
+.VSHN Products
+* xref:index.adoc[Products Overview]
+
+* VSHN Syn Support
+** xref:vss_intro.adoc[Introduction]
+** xref:vss_support_levels.adoc[Support Levels]
+** xref:vss_price_model.adoc[Price Model]
+** xref:vss_vcsp.adoc[Certified Service Provider]
+** xref:vss_support_matrix.adoc[Support Matrix]

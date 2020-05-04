@@ -1,6 +1,6 @@
 = VSHN Certified Service Provider (VCSP)
 
-TIP: This document is currently in public beta and being worked on actively
+WARNING: This document is currently in public beta and being worked on actively
 
 To distinguish the levels of support for technology and automation an infrastructure provider has, we put a label on them stating to which level a Cloud Service Provider has integration for Kubernetes and support for other services.
 

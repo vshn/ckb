@@ -1,6 +1,6 @@
 = Introduction
 
-TIP: This document is currently in public beta and being worked on actively
+WARNING: This document is currently in public beta and being worked on actively
 
 *VSHN Syn Support* provides a fully managed https://syn.tools[Project Syn] enabled Kubernetes cluster in several flavors and on several clouds. VSHN provisions and maintains the Kubernetes cluster throughout its lifetime and makes sure the Project Syn provided tools are running and available to the user of the platform. The user of the application environment gets support and operations from VSHN.
 
@@ -36,7 +36,7 @@ Monitoring and Alerting::
 
 Monitoring of cluster and system services functionality and alert handling according to SLA. Alert rules and thresholds are continuously assesed and regularly maintained.
 +
-NOTE: This includes the Kubernetes cluster and the Project Syn provided tooling, no customer application and services running on the cluster.
+IMPORTANT: This includes the Kubernetes cluster and the Project Syn provided tooling, no customer application and services running on the cluster.
 
 Metrics::
 

@@ -1,12 +1,12 @@
 = Support Matrix
 
-TIP: This document is currently in public beta and being worked on actively
+WARNING: This document is currently in public beta and being worked on actively
 
 The tables list the officially and by default supported clouds and main features. If a cloud or a feature / combination is not listed, it's not supported by VSHN by default.
 
 * *Provisioning*: How the cluster gets provisioned / configured / customized
 * *Autoscaling*: Is support for autoscaling available or not
-* *Application HA*: Is access to applications available in high-availability? This means: HS Load-balancer and IP HA
+* *Application HA*: Is access to applications available in high-availability? This means: HA Load-balancer and IP HA
 * *Storage*: Which storage options are available (CSI included, storage cluster is an addon)
 * *Load Balancer*: Implementation of network level load balancer
 

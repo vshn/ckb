@@ -1,6 +1,6 @@
 = Support Levels
 
-TIP: This document is currently in public beta and being worked on actively
+WARNING: This document is currently in public beta and being worked on actively
 
 The support level defines how much support a customer can get from VSHN. A support level can be chosen per cluster.
 

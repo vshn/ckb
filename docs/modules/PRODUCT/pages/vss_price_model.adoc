@@ -1,6 +1,6 @@
 = Price Model
 
-TIP: This document is currently in public beta and being worked on actively
+WARNING: This document is currently in public beta and being worked on actively
 
 VSHN service billing is modeled like the supplier model and is different per flavor. For each managed Kubernetes cluster, these units are counted:
 

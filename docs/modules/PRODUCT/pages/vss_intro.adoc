@@ -94,7 +94,7 @@ Alert handling::
 
 * Reacting to alerts and handle them according to a specified SLA
 * 24/7 operations (with SLA)
-* Continuous improvement of Alertrules based and day-to-day experience
+* Continuous improvement of Alertrules based on day-to-day experience
 * SLA reporting when an SLA is added
 
 Best-Practices Configuration::

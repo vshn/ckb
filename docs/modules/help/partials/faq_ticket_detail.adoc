@@ -12,6 +12,9 @@ To communicate secrets to VSHNeers with a secure mechanism, follow these steps:
 . Click on the btn:[Add Secret] button.
 . Enter a name for the secret in the **Name** field.
 . Enter the value of the secret in the **Secret** field.
++
+NOTE: You can enter any free-text information here, e.g. SSH keys, environment variables, certificates, etc.
+
 . Select "Week" or "Day" in the **Time to live (TTL)** field.
 . Click on the btn:[Save] button.
 
@@ -23,7 +26,7 @@ image::ticket-secrets-1.png[]
 [[multiple-secrets]]
 === How many secrets can I add in a ticket?
 
-You can add as many secrets as needed in a single ticket; you do not need to open separate tickets for each. Just enter them in the field as shown in the screenshot below.
+You can add as many secrets as needed in a single ticket; you do not need to open separate tickets for each (for example, one for each environment). Just enter them in the field separated by whitespace, as shown in the following screenshot.
 
 .Multiple ticket secrets
 image::ticket-secrets-2.png[]

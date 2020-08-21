@@ -26,8 +26,6 @@ Depending on the provided service on the VM the corresponding ports need to be o
 
 |_*_ |_443_ |_TCP_ |_HTTPS_ |_Webservice secured (HTTPS)_
 
-|_*_ |_8443_ |_TCP_ |_HTTPS_ |_OpenShift API / Console_
-
 |===
 
 === Outgoing

@@ -1,0 +1,296 @@
+= VSHN Infrastructure - IP Addresses and Firewall Rules
+
+This page describes the various services VSHN provides and which IP addresses are in use.
+
+== Default Firewall Rules
+
+=== Incoming
+
+By default, all incoming connections are dropped.
+
+Depending on the provided service on the VM the corresponding ports need to be opened too. Some are mentioned in _cursive_.
+
+[cols=",,,,",options="header",]
+|===
+|Source
+|Port
+|Protocol
+|Description
+|Explanation
+
+|* |- |ICMP |Ping |At least ICMP Echo Request to monitor reachability
+
+|* |22 |TCP |SSH |Remote Management
+
+|_*_ |_80_ |_TCP_ |_HTTP_ |_Webservice unsecured (HTTP)_
+
+|_*_ |_443_ |_TCP_ |_HTTPS_ |_Webservice secured (HTTPS)_
+
+|_*_ |_8443_ |_TCP_ |_HTTPS_ |_OpenShift API / Console_
+
+|===
+
+=== Outgoing
+
+[cols=",,,,,,",options="header"]
+|===
+|Port
+|Protocol
+|Description
+|Destination (minimum)
+|IPv4
+|IPv6
+|Explanation
+
+|22
+|TCP
+|SSH
+a|
+* git.vshn.net
+* management1.corp.vshn.net
+* Github
+
+a|
+* 5.102.151.92
+* 5.102.151.165
+* https://help.github.com/articles/github-s-ip-addresses/[Github help]
+
+a|
+* 2a06:c00::3554
+* 2a06:c00::380d
+* https://help.github.com/articles/github-s-ip-addresses/[Github help]
+
+|Git and SSH management
+
+|25
+|TCP
+|SMTP
+a|
+* *
+
+or local mail relay
+
+|
+|
+|Mail
+
+|80
+|TCP
+|HTTP
+a|
+* Ubuntu package repositories
+* Puppetlabs package repositories
+* Key servers
+
+|
+|
+
+a|
+Required during initial server setup. Ubuntu repositories not available via HTTPS. apt-key doesn't support HTTPS.
+
+*Workaround for package repositories*
+
+Use https for the puppetlabs repository (works) and use https with a mirror that supports it instead of the Ubuntu repos, e.g. 'https://ftp.uni-mainz.de/ubuntu'.
+
+*Workaround for key servers*
+
+Export all keys on another server, copy via scp and import.
+
+|123
+|UDP
+|NTP
+a|
+* *
+
+or local NTP server
+
+|
+|
+|Time synchronization
+
+|443
+|TCP
+|HTTPS
+a|
+* cache1.vshn.net 
+* cache2.vshn.net
+* registry.vshn.net
+* Docker Hub
+* Red Hat Docker Registry
+
+a|
+* 5.102.151.77
+* 159.100.242.228
+* 5.102.151.92
+* unknown
+* unknown
+
+a|
+* 2a06:c00::3b22
+* -
+* 2a06:c00::3554
+* unknown
+* unknown
+
+|Package repositories, Docker Registry
+|4971/4972
+|TCP
+|BURP
+a|
+* backup*.rma.cloudscale.vshn.net
+* backup*.lpg.cloudscale.vshn.net
+
+or local Backup server
+
+a|
+* 185.72.23.224/27
+* 185.72.21.0/27
+
+a|
+* 2a05:3d80:8000::/48
+* 2a05:3d81:8000::/48
+
+|Backup Server (BURP)
+|8140
+|TCP
+|Puppet
+a|
+* master.puppet.vshn.net
+
+a|
+* 5.102.151.83
+* 5.102.151.36
+
+a|
+* 2a06:c00::3bc5
+* 2a06:c00::3df5
+
+|Puppet Configuration Management Server
+|11371
+|TCP
+|HKP
+a|
+* keyserver.ubuntu.com
+
+a|
+* 162.213.33.8
+* 162.213.33.9
+
+|
+|GPG Key Exchange to add repositories
+|5665
+|TCP
+|Icinga2 API
+a|
+* master1.monitoring.vshn.net
+
+a|
+* 5.102.146.45
+
+a|
+* 2a06:c01:1:1103::922d:45
+
+|Icinga2 API for client > (satellite >) master connection
+|===
+
+=== Additional requirements for RHEL systems
+
+[cols=",,,,,,",options="header"]
+|===
+|Port
+|Protocol
+|Description
+|Destination (minimum)
+|IPv4
+|IPv6
+|Explanation
+
+|443
+|TCP
+|HTTPS
+a|
+* http://subscription.rhsm.redhat.com[subscription.rhsm.redhat.com]
+
+|
+|
+|required for RHEL subscription management.
+|===
+
+=== Additional requirements for OpenShift systems
+
+[cols=",,,,,,",options="header"]
+|===
+|Port
+|Protocol
+|Description
+|Destination (minimum)
+|IPv4
+|IPv6
+|Explanation
+
+|443
+|TCP
+|HTTPS
+a|
+* http://index.docker.io[index.docker.io]
+* http://registry.redhat.io[registry.redhat.io]
+* http://registry.access.redhat.com/[registry.access.redhat.com]
+* http://quay.io[quay.io]
+
+|
+|
+|required to pull docker images for both OpenShift Components (Master, Node, ...) and images for builds, eg base images, s2i builder, and so on...
+
+|443
+|TCP
+|HTTPS
+a|
+* http://api.syn.vshn.net[api.syn.vshn.net]
+
+a|
+* 5.102.146.128
+* 5.102.146.162
+* 5.102.146.185
+
+|
+|Project Syn management API
+
+|636
+|TCP
+|LDAP
+|ldap.vshn.net
+|5.102.151.183
+|2a06:c00::346c
+|required for authentication
+|===
+
+== Important VSHN IP addresses
+
+[cols=",,,,",options="header"]
+|===
+|Name
+|Hostnames
+|IPv4
+|IPv6
+|
+
+|*VSHN Office*
+|n/a
+|212.51.145.245
+|2a02:168:4607:100::/64
+|*Do NOT use this as the only IP in ACLs, use as addition to a Jumphost IP.*
+
+|*VSHN Jumphost*
+|management1.corp.vshn.net
+|5.102.151.165
+|2a06:c00::380d
+|
+
+|*VSHN Customer Portal*
+|control.vshn.net
+a|
+* 5.102.151.2
+* 5.102.151.3
+|
+|
+|===

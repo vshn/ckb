@@ -8,7 +8,7 @@ This page describes the various services VSHN provides and which IP addresses ar
 
 By default, all incoming connections are dropped.
 
-Depending on the provided service on the VM the corresponding ports need to be opened too. Some are mentioned in _cursive_.
+Depending on the provided service on the VM the corresponding ports need to be opened.
 
 [cols=",,,,",options="header",]
 |===

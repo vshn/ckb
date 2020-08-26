@@ -4,14 +4,12 @@
 
 09:00 until 18:00 Monday to Friday excluding public holidays (Zurich)
 
-== E-Mail Support / Helpdesk
-
-See xref:create_ticket.adoc[Create Ticket] for detailed information. The ticket system is fully integrated into our https://control.vshn.net/[VSHN Portal].
-
 == Contact address
 
 Neugasse 10 +
-CH-8005 Zürich
+CH-8005 Zürich +
+
++41 44 545 53 00 (no technical support)
 
 === E-Mail
 
@@ -19,11 +17,19 @@ General inquiries: info@vshn.ch +
 Sales: sales@vshn.ch +
 Support: support@vshn.ch
 
-NOTE: E-mails to support@vshn.ch are tracked in our Ticket System and help us to improve response time and quality of service. You can also use our https://control.vshn.net/[VSHN Portal] to open a support ticket. If you're not a customer yet please use sales@vshn.ch to get in touch.
+NOTE: E-mails to support@vshn.ch are tracked in our Ticket System and help us to improve response time and quality of service. Please use our https://control.vshn.net/[VSHN Portal] to open a support ticket whenever possible. If you're not a customer yet please use sales@vshn.ch to get in touch.
 
-== Emergency contact procedure outside office hours
+== Support / Helpdesk
 
-WARNING: Only customers with a 24/7 Service Level Agreement (SLA 7x24 Reaktiv / SLA 7x24 Proaktiv) are entitled to support services outside office hours.
+See xref:create_ticket.adoc[Create Ticket] for detailed information. The ticket system is fully integrated into our https://control.vshn.net/[VSHN Portal].
+
+IMPORTANT: The technical *support phone number* is visible to customers in the https://control.vshn.net/[VSHN Portal] when logged in.
+
+Please see our https://kb.vshn.ch/products/sla_en.html[Service Level Agreement] regarding guaranteed response times and correct contact procedures.
+
+=== Emergency contact procedure outside office hours
+
+IMPORTANT: The *24x7 support phone number* is visible to customers in the https://control.vshn.net/[VSHN Portal] when logged in. Only customers with a active 24x7 https://kb.vshn.ch/products/sla_en.html[SLA] Option are entitled to support services outside office hours.
 
 [graphviz]
 ....

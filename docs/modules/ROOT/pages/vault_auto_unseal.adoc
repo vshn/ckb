@@ -1,0 +1,21 @@
+= Auto Unseal
+
+A Vault instance needs to be unsealed in order to provide any functionality. See the https://www.vaultproject.io/docs/concepts/seal[docs] for more details.
+
+This unseal process can either happen manually by entering the minimum amount of key shares or via one of the auto unseal options.
+Unsealing is required every time a Vault instance restarts or is manually sealed.
+
+
+== Vault Native Unseal
+
+Vault implements various options to auto unseal an instance once it starts.
+See the https://www.vaultproject.io/docs/configuration/seal[docs] for available options and how to configure them.
+
+
+== Bank-Vaults Unsealer
+
+https://github.com/banzaicloud/bank-vaults[Bank-Vaults] by Banzai Cloud implements a https://banzaicloud.com/docs/bank-vaults/cli-tool[helper utility] to auto unseal Vault instances running on Kubernetes.
+The idea is to provide additional unseal options to the <<Vault Native Unseal>> implementations.
+
+In addition to unsealing Vault instances, Bank-Vaults will also automatically https://www.vaultproject.io/docs/commands/operator/init[initialize] new instances and store the unseal- and root-key in the configured secret store.
+This is only necessary for the first time a Vault instance or cluster is started.

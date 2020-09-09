@@ -40,4 +40,3 @@ $(web_dir)/index.html: playbook.yml $(pages)
 .PHONY: check
 check:
 	$(vale_cmd)
-

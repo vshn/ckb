@@ -1,0 +1,22 @@
+= Backup and Restore
+
+This page describes how backups and restores of Vault can be done when using the https://www.vaultproject.io/docs/configuration/storage/raft[integrated Raft storage].
+See the https://learn.hashicorp.com/tutorials/vault/raft-storage[Raft storage tutorial] for a thorough example.
+
+For other storage backends, use the appropriate backup/restore proceduers for the specific implementation.
+
+
+== Backup
+
+The Vault CLI provides a https://www.vaultproject.io/docs/commands/operator/raft#snapshot-save[snapshot] feature which downloads a snapshot of the current Raft storage state.
+The snapshot is encrypted with the Vault master key and can therefore only be used together with the https://www.vaultproject.io/docs/concepts/seal#seal-unseal[unseal or recovery keys].
+
+
+== Restore
+
+To restore a Vault instance from a snapshot, the https://www.vaultproject.io/docs/commands/operator/raft#snapshot-restore[snapshot restore] command can be used.
+This command will upload the snapshot to Vault and restore it.
+This must happen while Vault is running and will result in a brief downtime.
+
+To force the restore of a snapshot with different unseal keys `-force` needs to be specified.
+This might be the case if you're restoring Vault to a new (empty) instance.

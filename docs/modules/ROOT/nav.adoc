@@ -42,6 +42,10 @@
 * OpenShift
 ** xref:openshift_red_hat_registry.adoc[Red Hat container registry]
 
+* xref:vault.adoc[Vault]
+** xref:vault_backup_restore.adoc[Backup and Restore]
+** xref:vault_auto_unseal.adoc[Auto Unseal]
+
 * xref:vshn_infra_ips.adoc[Infrastructure IP Addresses]
 
 .Products

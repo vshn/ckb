@@ -1,6 +1,5 @@
 = Kubernetes Resource Management
 Manuel Hutter <manuel@vshn.ch>
-:toc:
 
 Scheduling and resource management is a topic many Kubernetes users seem to struggle with, even though it is vital to understand it and correctly configure your workload to ensure optimal resource usage and application availability. In this article, we'll explain what scheduling and resource management exactly is, how you configure and use them, and go into some best practices.
 

@@ -39,6 +39,9 @@
 ** xref:api_openshift.adoc[OpenShift]
 ** xref:api_servers.adoc[Servers]
 
+* Kubernetes
+** xref:kubernetes_resource_management.adoc[Kubernetes Resource Management]
+
 * OpenShift
 ** xref:openshift_red_hat_registry.adoc[Red Hat container registry]
 

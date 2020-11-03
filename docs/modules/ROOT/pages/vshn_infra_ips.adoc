@@ -253,6 +253,20 @@ a|
 |
 |Project Syn management API
 
+|443
+|TCP
+|HTTPS
+a|
+* https://vault-prod.syn.vshn.net[vault-prod.syn.vshn.net]
+
+a|
+* 5.102.146.128
+* 5.102.146.162
+* 5.102.146.185
+
+|
+|Project Syn Vault instance
+
 |636
 |TCP
 |LDAP

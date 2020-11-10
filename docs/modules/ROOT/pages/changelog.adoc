@@ -4,6 +4,9 @@
 // so that the most recent version always appears on top.
 
 [discrete]
+== 2020–XX–DD: Version 1.2.1
+* Updated maintenance process with correct time zone in summer
+
 == 2020–05–13: Version 1.2
 
 * Added VSHN products and legal documents.

@@ -2,7 +2,7 @@
 
 This page provides information about the maintenance process.
 
-NOTE: All times in this document in the CET (Europe/Zurich) timezone.
+NOTE: All times in this document in the CET/CEST (Europe/Zurich) timezone.
 
 == APPUiO Public
 

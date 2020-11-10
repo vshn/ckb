@@ -24,6 +24,8 @@
 
 * xref:monitoring_concept.adoc[Monitoring]
 
+* xref:security_vulnerability_process.adoc[Security and Vulnerability Process]
+
 * xref:cicd_concept.adoc[Continuous Delivery]
 
 * Puppet

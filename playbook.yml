@@ -11,7 +11,7 @@ content:
     edit_url: 'https://github.com/vshn/kb/edit/develop/{path}'
 ui:
   bundle:
-    url: https://github.com/vshn/antora-ui-default/releases/download/1.6/ui-bundle.zip
+    url: https://github.com/vshn/antora-ui-default/releases/download/1.7/ui-bundle.zip
     snapshot: false
 asciidoc:
   attributes:

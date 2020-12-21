@@ -54,9 +54,7 @@
 * xref:vshn_infra_ips.adoc[Infrastructure IP Addresses]
 
 .Products
-* xref:master@products:ROOT:index.adoc[Products Overview]
-* xref:master@products:ROOT:managed_service_intro.adoc[VSHN Managed Service]
-* xref:master@products:ROOT:vss_intro.adoc[VSHN Syn Support]
+* https://products.docs.vshn.ch/[Overview]
 
 .Legal
 * xref:master@products:ROOT:legaldocs_intro.adoc[Legal Documents Overview]

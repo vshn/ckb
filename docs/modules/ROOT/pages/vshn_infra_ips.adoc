@@ -114,7 +114,9 @@ a|
 * cache2.vshn.net
 * registry.vshn.net
 * Docker Hub
-* Red Hat Docker Registry
+* registry.redhat.io
+* registry.access.redhat.com
+* quay.io
 
 a|
 * 5.102.151.77
@@ -122,11 +124,15 @@ a|
 * 5.102.151.92
 * unknown
 * unknown
+* unknown
+* unknown
 
 a|
 * 2a06:c00::3b22
 * -
 * 2a06:c00::3554
+* unknown
+* unknown
 * unknown
 * unknown
 

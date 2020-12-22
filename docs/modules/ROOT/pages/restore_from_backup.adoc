@@ -22,8 +22,8 @@ $ sudo burp -a L -r '<filename>'
 +
 [source,bash]
 --
-$ sudo burp -a r -b <backup#> -r '<filename>' # restore to original location
-$ sudo burp -a r -b <backup#> -r '<filename>' -d /tmp # restore to /tmp
+$ sudo burp -a r -b <backup-number> -r '<filename>'          # restore to original location
+$ sudo burp -a r -b <backup-number> -r '<filename>' -d /tmp  # restore to /tmp
 --
 
 See below for more examples and information.
